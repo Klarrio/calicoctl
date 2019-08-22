@@ -495,25 +495,6 @@
   version = "v2.0.1"
 
 [[projects]]
-  digest = "1:ef8fbd038c00f10cbd8ceb2c6315fcc177b7f5bf307bf87a405b679e0e3a33bf"
-  name = "github.com/projectcalico/calicoctl"
-  packages = [
-    "calicoctl/commands",
-    "calicoctl/commands/argutils",
-    "calicoctl/commands/clientmgr",
-    "calicoctl/commands/constants",
-    "calicoctl/commands/ipam",
-    "calicoctl/commands/node",
-    "calicoctl/commands/v1resourceloader",
-    "calicoctl/resourcemgr",
-    "calicoctl/util/yaml",
-    "tests/fv/utils",
-  ]
-  pruneopts = "UT"
-  revision = "4059ecd47bc6523050e3b0190b819f2254fca4f0"
-  version = "v3.8.2"
-
-[[projects]]
   branch = "calico"
   digest = "1:277cfa0c319fcad705e10b7814e17c2bcfb1e62a1b0ac6dcdc5e4d0ec86de6df"
   name = "github.com/projectcalico/go-json"
@@ -1106,16 +1087,6 @@
     "github.com/onsi/gomega",
     "github.com/osrg/gobgp/client",
     "github.com/osrg/gobgp/packet/bgp",
-    "github.com/projectcalico/calicoctl/calicoctl/commands",
-    "github.com/projectcalico/calicoctl/calicoctl/commands/argutils",
-    "github.com/projectcalico/calicoctl/calicoctl/commands/clientmgr",
-    "github.com/projectcalico/calicoctl/calicoctl/commands/constants",
-    "github.com/projectcalico/calicoctl/calicoctl/commands/ipam",
-    "github.com/projectcalico/calicoctl/calicoctl/commands/node",
-    "github.com/projectcalico/calicoctl/calicoctl/commands/v1resourceloader",
-    "github.com/projectcalico/calicoctl/calicoctl/resourcemgr",
-    "github.com/projectcalico/calicoctl/calicoctl/util/yaml",
-    "github.com/projectcalico/calicoctl/tests/fv/utils",
     "github.com/projectcalico/go-json/json",
     "github.com/projectcalico/go-yaml-wrapper",
     "github.com/projectcalico/libcalico-go/lib/apiconfig",

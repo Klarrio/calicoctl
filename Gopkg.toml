@@ -56,7 +56,7 @@
 [[constraint]]
   name = "github.com/projectcalico/libcalico-go"
   source = "github.com/Klarrio/libcalico-go"
-  version = "release-v3.8-dep"
+  branch = "release-v3.8-dep"
 
 [[constraint]]
   name = "github.com/shirou/gopsutil"
